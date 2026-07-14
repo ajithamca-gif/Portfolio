@@ -4,8 +4,7 @@ A modern and responsive personal portfolio website built using **React**, **Type
 
 ## Live Demo
 
-https://YOUR-VERCEL-LINK.vercel.app
-
+https://portfolio-theta-one-ej7rx9n2ce.vercel.app
 ---
 
 ## Features
@@ -49,12 +48,6 @@ src
  ├── styles
  └── App.tsx
 ```
-
----
-
-## 📸 Screenshots
-
-(Add your portfolio screenshot here after deployment.)
 
 ---
 
