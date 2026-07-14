@@ -1,0 +1,132 @@
+.logo-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all .35s ease;
+
+    filter:
+        brightness(0) saturate(100%) invert(77%) sepia(19%) saturate(654%) hue-rotate(304deg) brightness(94%) contrast(90%);
+}
+
+.logo-img:hover {
+    transform: scale(1.08) rotate(-4deg);
+
+    filter:
+        brightness(0) saturate(100%) invert(77%) sepia(19%) saturate(654%) hue-rotate(304deg) brightness(104%) contrast(100%) drop-shadow(0 0 12px rgba(214, 141, 156, .55));
+}
+
+.navbar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: rgba(15, 23, 42, .78);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(200, 134, 144, .25);
+
+}
+
+.nav-container {
+
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.nav-links {
+
+    display: flex;
+    gap: 35px;
+
+    list-style: none;
+
+}
+
+.nav-links a {
+
+
+    position: relative;
+
+    transition: .3s;
+
+}
+
+.nav-links a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -8px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: var(--primary);
+
+    transition: .35s;
+
+}
+
+.nav-links a:hover {
+
+    color: var(--primary);
+
+}
+
+.nav-links a:hover::after {
+
+    width: 100%;
+
+}
+
+.resume-btn {
+
+    padding: 12px 28px;
+
+    background: var(--primary);
+
+    color: #fff;
+
+    text-decoration: none;
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 40px;
+
+    transition: all .35s ease;
+
+}
+
+.resume-btn:hover {
+
+    transform: translateY(-3px);
+
+    background: #e09aaa;
+
+    color: white;
+
+    border: none;
+
+    outline: none;
+
+    box-shadow:
+        0 0 15px rgba(214, 141, 156, .45),
+        0 0 30px rgba(214, 141, 156, .25);
+
+}

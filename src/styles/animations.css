@@ -1,0 +1,93 @@
+@keyframes float{
+
+    0%{
+        transform:translateY(0) scale(1);
+    }
+
+    50%{
+        transform:translateY(-25px) scale(1.08);
+    }
+
+    100%{
+        transform:translateY(0) scale(1);
+    }
+
+}
+
+@keyframes borderGlow{
+
+0%{
+background-position:0%;
+}
+
+100%{
+background-position:300%;
+}
+
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+@keyframes rotateRing{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+@keyframes textGradient{
+
+    0%{
+        background-position:0% center;
+    }
+
+    100%{
+        background-position:300% center;
+    }
+
+}
+@keyframes pulseGlow{
+
+    0%{
+
+        box-shadow:
+        0 0 18px rgba(200,134,144,.25);
+
+    }
+
+    50%{
+
+        box-shadow:
+        0 0 45px rgba(200,134,144,.65);
+
+    }
+
+    100%{
+
+        box-shadow:
+        0 0 18px rgba(200,134,144,.25);
+
+    }
+
+}
